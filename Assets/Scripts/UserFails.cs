@@ -16,8 +16,8 @@ public class UserFails : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (sloth.transform.position.y < -7 || sloth.transform.position.y > 8.3
-			|| sloth.transform.position.x < -12.76 || sloth.transform.position.x > 11.7) {
+		if (sloth.transform.position.y < -7 || sloth.transform.position.y > 10
+			|| sloth.transform.position.x < -12.76 || sloth.transform.position.x > 13) {
 			print ("slothy died.");
 			SceneManager.LoadScene (7);
 		}

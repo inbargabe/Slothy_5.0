@@ -38,7 +38,6 @@ public class ButtonsControl : MonoBehaviour {
 
 	}
 	public void Level5(){
-		SceneManager.LoadScene("Stage5");
-
+		SceneManager.LoadScene ("Stage5");
 	}
 }
